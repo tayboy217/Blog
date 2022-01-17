@@ -309,8 +309,103 @@ div#top_pickup dl dd {
 
  div#top_right {
    width: 650px;
-   height: 650px;
-   background-color: yellow;
+   height: auto;
    float: right;
    margin-top: 30px;
  }
+
+ div#top_right h3 {
+   font-size: 22px;
+   font-weight: bold;
+   background: url(images/new_icon.png) no-repeat left 5px;
+   padding-left: 30px;
+ }
+
+ div#top_right ul#post_list li {
+   width: 650px;
+   height: 152px;
+   background-color: #fff;
+   border: 1px solid #dcdddf;
+   margin-bottom: 30px;
+ }
+
+ div#top_right ul#post_list li dl dt {
+   width: 247px;
+   height: 152px;
+   float: left;
+   margin-right: 20px;
+   position: relative;
+ }
+
+ div#top_right span.new_category_tag {
+   font-size: 14px;
+   font-weight: bold;
+   padding: 0 10px;
+   width: auto;
+   height: 34px;
+   background-color: rgba( 246,172, 77, 0.9);
+   display: inline-block;
+   color: #fff;
+   line-height: 34px;
+   position: absolute;
+   top: 0;
+   right: 0;
+ }
+
+ div#top_right ul li dl dd {
+   padding: 20px 20px 0px 0px;
+ }
+
+ div#top_right h4 a {
+   font-size: 16px;
+   font-weight: bold;
+ }
+
+ span.new_date {
+   color: #dcdddf;
+   font-size: 12px;
+   background: url(images/new_date.png) no-repeat left;
+   padding-left: 18px;
+   margin-right: 15px;
+ }
+
+ span.new_tag {
+  color: #dcdddf;
+  font-size: 12px;
+  background: url(images/tag.png) no-repeat left;
+  padding-left: 18px;
+}
+
+div#top_right p {
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 10px;
+}
+
+div#top_right p a {
+  color: #f6ac4d;
+  text-decoration: underline;
+}
+
+div#pagination {
+  width: auto;
+  height: 34px;
+  float: right;
+}
+
+div#pagination ul li {
+  width: auto;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #dcdddf;
+  float: left;
+  margin-left: 10px;
+}
+
+div#pagination ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 0 8px;
+  display: block;
+}
