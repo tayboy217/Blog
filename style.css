@@ -259,3 +259,58 @@ div#top_pickup dl dd {
  span.webmarketing {
    background-color: #acd598;
  }
+
+ /*
+========================================
+    レフト
+=========================================
+ */
+
+ div#top_left {
+   width: 280px;
+   height: auto;
+   float: left;
+   margin-top: 30px;
+ }
+
+ div#top_category {
+   width: 240px;
+   height: auto;
+   background-color: #fff;
+   padding: 10px;
+   border: 10px solid #dcdddf;
+   margin-bottom: 30px;
+ }
+
+ div#top_category h3 {
+   font-size: 18px;
+   font-weight: bold;
+   background: url(images/category_icon.png) no-repeat left 8px;
+   padding-left: 25px;
+   border-bottom: 1px dotted #dcdddf;
+   margin-bottom: 10px;
+ }
+
+ div#top_category ul li {
+   font-size: 13px;
+   margin-bottom: 19px;
+   line-height: 1;
+ }
+
+ div#top_category ul li:last-child {
+   margin-bottom: 0px;
+ }
+
+ /*
+========================================
+    ライト
+=========================================
+ */
+
+ div#top_right {
+   width: 650px;
+   height: 650px;
+   background-color: yellow;
+   float: right;
+   margin-top: 30px;
+ }
